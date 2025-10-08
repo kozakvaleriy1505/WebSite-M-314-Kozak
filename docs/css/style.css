@@ -16,3 +16,9 @@ nav a:hover {
   height: 500px;           /* фіксована висота */
   object-fit: cover;       /* обрізає зображення, щоб не спотворювати */
 }
+
+nav img {
+  width: 30%;
+  margin: 0 auto 1rem auto; /* центрує і дає відступ знизу */
+  display: block;
+}
