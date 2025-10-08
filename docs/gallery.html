@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Галерея — 3D-друк у машинобудуванні</title>
+  <link rel="icon" type="image/png" href="img/icon.png">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row vh-100">
+      
+      <!-- Ліва -->
+      <nav class="col-md-3 col-lg-2 bg-success text-white d-flex flex-column p-3">
+        <h4 class="text-center mb-4">Що вас цікавить?</h4>
+        <a href="index.html" class="text-white mb-2 text-decoration-none">🏠 Головна</a>
+        <a href="gallery.html" class="text-white mb-2 text-decoration-none">🖼️ Галерея</a>
+        <a href="contacts.html" class="text-white mb-2 text-decoration-none">📞 Контакти</a>
+      </nav>
+
+      <!-- Оснв -->
+      <main class="col-md-9 col-lg-10 p-4">
+        <h1 class="text-primary mb-4">Галерея наших робіт</h1>
+
+        <!-- Каруселька -->
+        <div id="galleryCarousel" class="carousel slide shadow rounded" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/Gurtok2.jpg" class="d-block w-100 rounded" alt="3D-принтер у роботі">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                <h5>3D-принтер у роботі</h5>
+                <p>Процес друку навчальної моделі.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/Gurtok1.jpg" class="d-block w-100 rounded" alt="Готові вироби студентів">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                <h5>Готові вироби студентів</h5>
+                <p>Приклади виготовлені учасниками гуртка.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/Model2.jpg" class="d-block w-100 rounded" alt="Лабораторія 3D-друку">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                <h5>Лабораторія 3D-друку</h5>
+                <p>Навчальний простір для творчості й експериментів.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/Model1.jpg" class="d-block w-100 rounded" alt="3D-моделі">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                <h5>3D-модель</h5>
+                <p>Модель металоконструкції.</p>
+              </div>
+          </div>
+
+          <!-- Батони -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+
+        
+        <section class="mt-4">
+          <h2 class="text-success">Опис</h2>
+          <p>У цій галереї зібрано роботи студентів та учасників гуртка. Всі моделі були створені з використанням 
+            технологій 3D-друку, які ми вивчаємо в процесі навчання. Кожен виріб демонструє креативність, 
+            точність і технічну майстерність учасників.</p>
+        </section>
+
+      </main>
+    </div>
+  </div>
+</body>
+</html>
